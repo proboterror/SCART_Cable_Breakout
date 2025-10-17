@@ -11,6 +11,7 @@ SCART RGB cable breakout PCB with ST662A 5V->12V converter option for automatic 
 ![pcb_bottom](images/pcb_bottom.png)
 ![pcb_top_smd](images/pcb_top_smd.png)
 ![pcb_bottom_smd](images/pcb_bottom_smd.png)
+![pcb_dimensions](images/pcb_dimensions.png)
 ![scheme](images/scheme.png)
 
 ## Order boards from manufacturer
