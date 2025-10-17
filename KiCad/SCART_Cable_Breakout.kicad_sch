@@ -4207,7 +4207,7 @@
 				)
 			)
 		)
-		(property "Value" "220 uF"
+		(property "Value" "220uF"
 			(at 161.29 47.498 90)
 			(effects
 				(font
@@ -4274,7 +4274,7 @@
 				)
 			)
 		)
-		(property "Value" "220 uF"
+		(property "Value" "220uF"
 			(at 161.29 75.438 90)
 			(effects
 				(font
@@ -5057,7 +5057,7 @@
 				)
 			)
 		)
-		(property "Value" "220 uF"
+		(property "Value" "220uF"
 			(at 161.29 61.468 90)
 			(effects
 				(font

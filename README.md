@@ -37,7 +37,7 @@ The FUNCTION SWITCHING signal (pin 8) is used to instruct the TV set to automati
 Send "gerbers" folder content packed to zip archive.
 
 ## Build Notes
-Be aware when ordering SMD capacitors: they should be minimal height 3.9 ~ 4.5 mm, depending on specific SCAT connector. Or use A,B,C size tantalum capacitors.
+Be aware when ordering SMD capacitors: they should be minimal height 3.9 ~ 4.5 mm, depending on specific SCART connector. Or use A,B,C size tantalum capacitors.
 
 180 Ohms resistor always should be soldered.
 

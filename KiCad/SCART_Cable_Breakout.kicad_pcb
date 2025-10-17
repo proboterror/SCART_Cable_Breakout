@@ -387,8 +387,8 @@
 				)
 			)
 		)
-		(property "Value" "220 uF"
-			(at 4.45 3.75 180)
+		(property "Value" "220uF"
+			(at 4.45 3.35 180)
 			(layer "F.SilkS")
 			(uuid "6f763e81-e131-420d-90f1-53af7896d7ab")
 			(effects
@@ -828,8 +828,8 @@
 				)
 			)
 		)
-		(property "Value" "220 uF"
-			(at 4.45 4 180)
+		(property "Value" "220uF"
+			(at 4.45 3.4 180)
 			(layer "F.SilkS")
 			(uuid "bed69522-1d79-4f31-b831-fd7887e3386e")
 			(effects
@@ -2366,8 +2366,8 @@
 				)
 			)
 		)
-		(property "Value" "220 uF"
-			(at 4.45 3.75 0)
+		(property "Value" "220uF"
+			(at 4.45 3.45 0)
 			(layer "F.SilkS")
 			(uuid "103081ac-977b-4322-ad21-39e80fd5af50")
 			(effects
