@@ -2312,13 +2312,13 @@
 		(uuid "01ecf619-f092-4b8a-9a4f-d20deef08a48")
 	)
 	(junction
-		(at 219.71 52.07)
+		(at 196.85 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04575ac3-a9cd-45e4-8a02-99918b6edf7b")
 	)
 	(junction
-		(at 219.71 57.15)
+		(at 196.85 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20d9ba18-ef25-4506-b1ad-9d51e7b2d1aa")
@@ -2421,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 52.07) (xy 240.03 52.07)
+			(xy 196.85 54.61) (xy 217.17 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2491,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 57.15) (xy 240.03 57.15)
+			(xy 196.85 59.69) (xy 217.17 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2682,7 @@
 		(uuid "d9aa8281-b2a7-41a3-9c21-c6def2315cf1")
 	)
 	(label "GREEN_IN"
-		(at 240.03 46.99 180)
+		(at 217.17 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2726,7 +2726,7 @@
 		(uuid "25d9d8c8-7a08-4240-a09d-6ea9ce388fd4")
 	)
 	(label "BLUE_IN"
-		(at 240.03 49.53 180)
+		(at 217.17 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2803,7 +2803,7 @@
 		(uuid "524ac767-1f16-41d5-b34d-07f31e997939")
 	)
 	(label "AUDIO_IN_R"
-		(at 240.03 62.23 180)
+		(at 217.17 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2847,7 +2847,7 @@
 		(uuid "58feb03f-8f5f-4355-a210-66aea5ccc236")
 	)
 	(label "COMPOSITE_VIDEO_IN"
-		(at 240.03 54.61 180)
+		(at 217.17 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2902,7 +2902,7 @@
 		(uuid "869a701c-f785-454a-aead-7b307e75c601")
 	)
 	(label "RED_IN"
-		(at 240.03 44.45 180)
+		(at 217.17 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2935,7 +2935,7 @@
 		(uuid "93e0164a-4bd1-4c82-b6cf-aa7d084415c5")
 	)
 	(label "AUDIO_IN_L_MONO"
-		(at 240.03 59.69 180)
+		(at 217.17 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3057,7 +3057,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 219.71 57.15 180)
+		(at 196.85 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3066,7 +3066,7 @@
 		(fields_autoplaced yes)
 		(uuid "007ee1af-45fb-4b8e-8f1b-58179dccc122")
 		(property "Reference" "#FLG01"
-			(at 219.71 59.055 0)
+			(at 196.85 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3075,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 219.71 62.23 0)
+			(at 196.85 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 57.15 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 57.15 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3101,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 219.71 57.15 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3193,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 219.71 57.15 90)
+		(at 196.85 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3202,7 +3202,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ef5d902-13dd-444c-b768-8e123086004d")
 		(property "Reference" "#PWR012"
-			(at 223.52 57.15 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3211,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 215.9 57.1499 90)
+			(at 193.04 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 57.15 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 57.15 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 219.71 57.15 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3394,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 219.71 52.07 0)
+		(at 196.85 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3403,7 +3403,7 @@
 		(fields_autoplaced yes)
 		(uuid "24153755-9e05-47ad-9fb6-e5e136714262")
 		(property "Reference" "#FLG02"
-			(at 219.71 50.165 0)
+			(at 196.85 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3412,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 219.71 46.99 0)
+			(at 196.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 52.07 0)
+			(at 196.85 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3429,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 52.07 0)
+			(at 196.85 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3438,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 219.71 52.07 0)
+			(at 196.85 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4331,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 52.07 270)
+		(at 196.85 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4339,7 +4339,7 @@
 		(dnp no)
 		(uuid "8b3bdf50-4e89-47fd-af9d-a4294267d06a")
 		(property "Reference" "#PWR014"
-			(at 213.36 52.07 0)
+			(at 190.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +4348,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 52.0699 90)
+			(at 193.04 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 52.07 0)
+			(at 196.85 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 52.07 0)
+			(at 196.85 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 52.07 0)
+			(at 196.85 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4599,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 245.11 52.07 0)
+		(at 222.25 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4608,7 +4608,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8b2b76a-103b-45c9-8cb9-ced79f0ef7bd")
 		(property "Reference" "J2"
-			(at 247.65 52.0699 0)
+			(at 224.79 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +4617,7 @@
 			)
 		)
 		(property "Value" "SCART Cable"
-			(at 247.65 54.6099 0)
+			(at 224.79 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4626,7 @@
 			)
 		)
 		(property "Footprint" "SCART:SCART_In"
-			(at 245.11 52.07 0)
+			(at 222.25 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +4635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 52.07 0)
+			(at 222.25 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,7 +4644,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 245.11 52.07 0)
+			(at 222.25 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

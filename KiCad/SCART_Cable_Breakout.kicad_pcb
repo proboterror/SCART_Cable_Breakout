@@ -2757,6 +2757,7 @@
 		(property "Reference" "C7"
 			(at 0 2.35 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ded5ccf6-7187-4d7c-8680-e369b21a80a1")
 			(effects
 				(font
@@ -3640,6 +3641,7 @@
 		(property "Reference" "C8"
 			(at 0 2.35 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "cf18ae3e-a0c1-4eed-9a5f-eeab574db925")
 			(effects
 				(font
