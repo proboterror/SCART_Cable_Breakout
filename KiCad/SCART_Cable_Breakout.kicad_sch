@@ -2681,17 +2681,6 @@
 		)
 		(uuid "d9aa8281-b2a7-41a3-9c21-c6def2315cf1")
 	)
-	(label "RGB_GREEN"
-		(at 191.77 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04cac02b-8290-467b-a431-662dd95673b8")
-	)
 	(label "GREEN_IN"
 		(at 240.03 46.99 180)
 		(fields_autoplaced yes)
@@ -2757,17 +2746,6 @@
 			(justify right bottom)
 		)
 		(uuid "2a53ea5e-5be5-4bba-aad8-ab9d92525504")
-	)
-	(label "RED_IN"
-		(at 199.39 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2cbbc787-e137-43eb-977a-502baf7d04e7")
 	)
 	(label "STATUS_ASPECT"
 		(at 78.74 119.38 0)
@@ -2923,17 +2901,6 @@
 		)
 		(uuid "869a701c-f785-454a-aead-7b307e75c601")
 	)
-	(label "RGB_BLUE"
-		(at 191.77 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8a5d223b-1f75-47aa-aebf-e89dbe0e0940")
-	)
 	(label "RED_IN"
 		(at 240.03 44.45 180)
 		(fields_autoplaced yes)
@@ -2967,28 +2934,6 @@
 		)
 		(uuid "93e0164a-4bd1-4c82-b6cf-aa7d084415c5")
 	)
-	(label "BLUE_IN"
-		(at 199.39 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fdca0aa-5de8-43ed-9145-4b57eb6fd1be")
-	)
-	(label "GREEN_IN"
-		(at 199.39 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a595ef87-f642-40c9-9d3b-4ef171938d0b")
-	)
 	(label "AUDIO_IN_L_MONO"
 		(at 240.03 59.69 180)
 		(fields_autoplaced yes)
@@ -2999,17 +2944,6 @@
 			(justify right bottom)
 		)
 		(uuid "a6927ee9-3716-40f7-b940-42557fe93aaf")
-	)
-	(label "RGB_RED"
-		(at 191.77 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa2586d8-2399-4e57-bf85-faf670e13b88")
 	)
 	(label "STATUS_ASPECT"
 		(at 121.92 99.06 180)
@@ -3182,74 +3116,6 @@
 			(project "SCART_Cable_Breakout"
 				(path "/a8c308e9-60db-4bd9-abd6-b3fb578cc844"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 195.58 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b8e684a-991c-434f-8eb0-db6b115145cf")
-		(property "Reference" "JP3"
-			(at 195.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 195.58 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee5e4381-54ca-42bb-a794-9dc5971d7e12")
-		)
-		(pin "1"
-			(uuid "35ab8231-3327-4639-a9f7-20680f1d2c79")
-		)
-		(instances
-			(project "SCART_Cable_Breakout"
-				(path "/a8c308e9-60db-4bd9-abd6-b3fb578cc844"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -3811,7 +3677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x3.9"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder"
 			(at 69.5452 134.62 0)
 			(effects
 				(font
@@ -3915,74 +3781,6 @@
 			(project "SCART_Cable_Breakout"
 				(path "/a8c308e9-60db-4bd9-abd6-b3fb578cc844"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 195.58 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3be1a176-8b87-4e70-b1b5-b382f2be17ce")
-		(property "Reference" "JP1"
-			(at 195.58 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "42bdb9a6-5b77-4bbc-b754-82ee2344d18d")
-		)
-		(pin "1"
-			(uuid "16c27002-7417-4ca0-9313-022fabf8ad40")
-		)
-		(instances
-			(project "SCART_Cable_Breakout"
-				(path "/a8c308e9-60db-4bd9-abd6-b3fb578cc844"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -5202,7 +5000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x3.9"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder"
 			(at 67.6148 111.76 0)
 			(effects
 				(font
@@ -5239,74 +5037,6 @@
 			(project "SCART_Cable_Breakout"
 				(path "/a8c308e9-60db-4bd9-abd6-b3fb578cc844"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 195.58 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3d0358e-92ad-4909-bcf0-045c0a548300")
-		(property "Reference" "JP2"
-			(at 195.58 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 195.58 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 195.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 195.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca9ec090-e9c5-4aa4-b069-518e4e0fbde8")
-		)
-		(pin "1"
-			(uuid "8792d0a9-a10a-4966-a4ee-5b7db471eb80")
-		)
-		(instances
-			(project "SCART_Cable_Breakout"
-				(path "/a8c308e9-60db-4bd9-abd6-b3fb578cc844"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
